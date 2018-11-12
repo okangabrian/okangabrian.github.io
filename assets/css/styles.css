@@ -1,0 +1,493 @@
+body {
+    font: 15px arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* global */
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.container-nav {
+    float: right;
+}
+
+.left {
+    width: 100%;
+}
+
+.general-button {
+    height: 32px;
+    background: #2991d6;
+    border: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.general-button:hover {
+    transform: translateY(3px);
+}
+
+/* header */
+
+header {
+    background: #082233;
+    color: #2991d6;
+    min-height: 60px;
+    border-bottom: #2991d6 3px solid;
+}
+
+a {
+    color: #2991d6;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header ul {
+    margin: o;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+    font-size: 12px;
+}
+
+#logo {
+    float: left;
+    margin-top: 15px;
+    margin-left: 138px;
+}
+
+#logo h1 {
+    margin: 0;
+}
+
+#authentication {
+    float: left;
+}
+
+/* sliders */
+
+.top {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/landing.jpg);
+    height: 70vh;
+    background-attachment: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.top h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.top {
+    font-size: 20px;
+}
+
+.top p {
+    margin-top: 170px;
+}
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+    margin-bottom: 0;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* cards */
+
+#cards {
+    margin-top: 15px;
+}
+
+.slogans {
+    flex-direction: row;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+}
+
+#cards img {
+    width: 90px;
+}
+
+#instructions {
+    text-align: center;
+}
+
+#get-started {
+    margin-left: 40%;
+    /* margin-right: 30%; */
+    margin-bottom: 50px;
+}
+
+/* footer */
+
+footer {
+    padding: 20px;
+    margin-top: 0px;
+    color: #2991d6;
+    background-color: #082233;
+    text-align: center;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.general-button:hover {
+    opacity: 1;
+}
+
+/*forms*/
+
+.login {
+    margin-bottom: 20px;
+}
+
+.reminder {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.reminder__save-me {
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.reminder a {
+    text-decoration: none;
+    color: #0095eb;
+    margin-left: 100px;
+}
+
+.reminder a:hover {
+    text-decoration: underline;
+}
+
+.create-account {
+    /* border: 1px solid orange; */
+    font-size: 13px;
+    margin-top: -40px;
+}
+
+.create-account a {
+    text-decoration: none;
+    color: #0095eb;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 80px;
+}
+
+.section-signup {
+    padding: 20px;
+}
+
+input[type="password"],
+input[type="text"],
+input[type="email"] {
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #0095eb;
+    box-shadow: 2px 3px 3px #0095eb;
+}
+
+input {
+    border-radius: 5px;
+}
+
+/* Working with buttons */
+
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 40px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0 10px 20px #0095eb;
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px #0095eb;
+}
+
+.btn-blue {
+    border: 1px solid #0095eb;
+    background-color: #0095eb;
+    color: #fff;
+}
+
+.btn-cancel-order {
+    background-color: #FF0000 !important;
+}
+
+.delivery-orders-containers {
+    margin: 0.7rem;
+    flex: 1 1 30%;
+    background-image: linear-gradient( to right bottom, rgb(7, 172, 150), rgb(43, 161, 165));
+    box-shadow: 2px 2px 2px gray;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.new-order {
+    font-weight: 300;
+    word-spacing: 4px;
+    margin-bottom: 1rem;
+    margin-left: -26%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( to right bottom, rgb(0, 149, 235), rgb(0, 149, 235));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+label {
+    font-weight: 400;
+    word-spacing: 4px;
+    background-image: linear-gradient(to right bottom, rgb(0, 149, 235), rgb(0, 149, 235));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.container {
+    padding: 16px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.general-button:hover {
+    opacity: 1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+/* section how it works */
+
+.text {
+    text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( to right bottom, rgb(30, 228, 201), rgb(7, 172, 150));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.row-2 {
+    padding: 4rem;
+    display: flex;
+    border-radius: 3px;
+    height: auto;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.column {
+    margin-right: 3rem;
+    border-bottom: 0.1rem solid wheat;
+    width: 33.3%;
+    height: 18rem;
+    box-shadow: 0 0 1rem 0 #0095eb;
+}
+
+.column:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+}
+
+.steps {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    display: inline-block;
+}
+
+.description {
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.description p {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+}
+
+.card {
+    padding: 10px 20px;
+    height: 300px;
+}
+
+.titles {
+    color: #0095eb !important;
+}
+
+/*Create order*/
+
+.Create-order {
+    position: relative;
+    left: 50vh;
+    background: white;
+    width: 50vw;
+    height: 90vh;
+    border-radius: .5rem;
+    text-align: left;
+}
+
+input {
+    font-size: .7rem;
+}
+
+label {
+    display: block;
+    margin: .8rem;
+    padding: .2rem;
+    font-size: 1rem;
+}
+
+input {
+    width: 30vw;
+    border: 0;
+    outline: 0;
+    text-align: justify;
+    border-bottom: 1px solid black;
+}
+
+label {
+    font-weight: 400;
+    word-spacing: 4px;
+    background-image: linear-gradient(to right bottom, rgb(0, 149, 235), rgb(0, 149, 235));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.add {
+    margin-top: 1.5rem;
+}
+
+/* section login Forms */
+
+.new-order {
+    font-weight: 300;
+    word-spacing: 4px;
+    margin-bottom: 1rem;
+    margin-left: -26%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( to right bottom, rgb(0, 149, 235), rgb(0, 149, 235));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.new-account-small {
+    font-weight: 400;
+    word-spacing: 4px;
+    font-size: 0.8rem;
+}
+
+/* section 1 Forms */
+
+.login {
+    margin-bottom: 20px;
+}
